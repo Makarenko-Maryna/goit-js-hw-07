@@ -32,7 +32,7 @@ function addGalleryContainerClick(event) {
 
 }
 
-var lightbox = new SimpleLightbox('.gallery a', {
+var lightbox = new SimpleLightbox('.js-gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
     navText: ['<', '>'],
